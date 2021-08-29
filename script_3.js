@@ -51,7 +51,7 @@ console.log(post.comments[1].text);
  * Задание 3
  */
 
-/* const products = [{
+const products = [{
         id: 3,
         price: 200,
     },
@@ -68,7 +68,7 @@ console.log(post.comments[1].text);
 products.forEach(function (product, index) {
     products[index]['price'] = product.price - (product.price * 0.15);
 })
-console.log(products); */
+console.log(products);
 
 /**
  * Задание 4
